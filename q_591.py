@@ -3,7 +3,8 @@
 # input
 n =int(input())
 
-#algotithem
+# algotithem + output
+
 print('*'*n,end="\n")
 
 for i in range(n-2):
