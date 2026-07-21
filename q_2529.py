@@ -12,4 +12,5 @@ names_dict = dict()
 for i in names:
     names_dict.update({i: len(set(i))})
 
-
+# output
+print(max(names_dict.values()))
