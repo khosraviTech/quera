@@ -9,3 +9,5 @@ def fact(n):
     else:
         return n*(fact(n-1))
     
+# output
+print(fact(n))
