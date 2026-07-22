@@ -7,7 +7,7 @@ for i in range(n):
     names.append(input())
 
 # algorithm
-names_dict = dict()
+names_dict =dict()
 
 for i in names:
     names_dict.update({i: len(set(i))})
