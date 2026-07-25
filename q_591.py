@@ -4,9 +4,9 @@
 n = int(input())
 
 # algotithem + output
-print('*' * n, end="\n")
+print("*" * n, end="\n")
 
 for i in range(n - 2):
-    print('*' + ' ' * (n - 2) + '*')
+    print("*" + " " * (n - 2) + "*")
 
-print('*' * n)
+print("*" * n)
