@@ -2,3 +2,6 @@
 
 # input
 n: int = int(input())
+
+# algorithm
+list
