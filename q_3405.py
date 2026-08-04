@@ -11,3 +11,6 @@ while True:
 
 
 
+# output
+for i in reversed(n):
+    print(i)
