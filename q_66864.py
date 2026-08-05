@@ -3,3 +3,10 @@
 # input
 k: int = int(input())
 
+# algorithm
+number:str=''
+
+for i in range(1,k+1):
+    number+=str(i)
+    
+
