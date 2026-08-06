@@ -11,3 +11,4 @@ for i in range(1, k + 1):
 
 # output
 print(number[k - 1])
+
