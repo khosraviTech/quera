@@ -1,15 +1,4 @@
-# https://quera.org/problemset/76278
-
-# input
-
-n = int(input())
-m = int(input())
-li: list[int] = list(map(int, (input().split(" "))))
-# print("n is:", n, "m is:", m, "li is:", li)
-
-# algorithm
 def calculator(n, m, li):
-
     sep_list = [li[i : i + m] for i in range(0, len(li), m)]
     # print("sep list is: ", sep_list)
     sum_list = []
@@ -23,8 +12,6 @@ def calculator(n, m, li):
 
     # print("sum lsit after negativation:", sum_list)
     # print("sum of sum_list values and the final result is : ", sum(sum_list))
-
+    
     return sum(sum_list)
-
-# output
-print(calculator(n, m, li))
+    pass
