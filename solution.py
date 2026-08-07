@@ -14,4 +14,4 @@ def calculator(n, m, li):
     # print("sum of sum_list values and the final result is : ", sum(sum_list))
     
     return sum(sum_list)
-    pass
+    
