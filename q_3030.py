@@ -7,3 +7,6 @@ x, y = map(int, input().split())
 if (x, y) != (2, 2):
     print(1)
     print(2, 2)
+else:
+    print(1)
+    print(3, 3)
