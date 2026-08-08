@@ -14,3 +14,6 @@ for _ in range(n):
     for word in words:
         word = word[0].upper() + word[1:].lower()
         result.append(word)
+
+    # output
+    print(" ".join(result))
