@@ -4,6 +4,6 @@
 word=input()
 
 #algorithem
-for i in range(1,len(word)+1):
+for i in range(len(word)):
     print(word[i] * (i + 1) + word[i + 1:])
 
